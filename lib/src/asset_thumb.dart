@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:multi_image_picker/src/asset.dart';
+import 'package:multi_image_picker2/multi_image_picker2.dart';
 
 class AssetThumb extends StatefulWidget {
   /// The asset we want to show thumb for.

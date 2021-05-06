@@ -1,5 +1,6 @@
 class CupertinoOptions {
   final String backgroundColor;
+  final String doneButtonTitle;
   final String selectionShadowColor;
   final String selectionStrokeColor;
   final String selectionFillColor;
@@ -10,6 +11,7 @@ class CupertinoOptions {
 
   const CupertinoOptions({
     this.backgroundColor,
+    this.doneButtonTitle,
     this.selectionFillColor,
     this.selectionShadowColor,
     this.selectionStrokeColor,
@@ -22,6 +24,7 @@ class CupertinoOptions {
   Map<String, String> toJson() {
     return {
       "backgroundColor": backgroundColor ?? "",
+      "doneButtonTitle": doneButtonTitle ?? "",
       "selectionFillColor": selectionFillColor ?? "",
       "selectionShadowColor": selectionShadowColor ?? "",
       "selectionStrokeColor": selectionStrokeColor ?? "",

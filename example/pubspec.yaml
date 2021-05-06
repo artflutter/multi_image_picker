@@ -1,5 +1,7 @@
 name: multi_image_picker_example
 description: Demonstrates how to use the multi_image_picker plugin.
+version: 1.0.0+1
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 dependencies:
   flutter:
@@ -13,7 +15,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  multi_image_picker:
+  multi_image_picker2:
     path: ../
 
 # For information on the generic Dart part of this file, see the

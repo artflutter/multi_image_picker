@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 
-import 'package:multi_image_picker/multi_image_picker.dart';
+import 'package:multi_image_picker2/multi_image_picker2.dart';
 
 void main() => runApp(new MyApp());
 
@@ -42,7 +42,10 @@ class _MyAppState extends State<MyApp> {
         maxImages: 300,
         enableCamera: true,
         selectedAssets: images,
-        cupertinoOptions: CupertinoOptions(takePhotoIcon: "chat"),
+        cupertinoOptions: CupertinoOptions(
+          takePhotoIcon: "chat",
+          doneButtonTitle: "Fatto",
+        ),
         materialOptions: MaterialOptions(
           actionBarColor: "#abcdef",
           actionBarTitle: "Example App",
